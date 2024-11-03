@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 
