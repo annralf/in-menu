@@ -43,8 +43,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb:#FFFFFF;
-    --background-end-rgb:#FFFFFF;
+    --background-start-rgb: #ffffff;
+    --background-end-rgb: #ffffff;
 
     --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
     --secondary-glow: linear-gradient(
@@ -86,8 +86,8 @@ body {
 }
 
 body {
-  color: #27594F;
-  background: #FFFFFF;
+  color: #27594f;
+  background: #ffffff;
 }
 
 a {

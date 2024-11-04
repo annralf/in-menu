@@ -1,0 +1,47 @@
+.header {
+  height: 15vh;
+  font-weight: 500;
+}
+
+.content {
+  height: 75vh;
+}
+
+.footer {
+  height: 10vh;
+}
+
+.wrapper {
+  color: white;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(149, 149, 149, 0.4) 58%
+  );
+
+  z-index: 10;
+}
+
+.details {
+  background: linear-gradient(
+    0deg,
+    rgba(87, 54, 39, 1) 0%,
+    rgba(147, 126, 117, 1) 57%,
+    rgba(180, 165, 159, 1) 78%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.title {
+  font-size: 2.7rem;
+  font-weight: 500;
+}
+
+.option {
+  font-size: 1.5rem;
+}
+
+.icon {
+  height: 90%;
+  width: auto;
+}

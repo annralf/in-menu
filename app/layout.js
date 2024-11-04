@@ -1,16 +1,17 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 
 const monserrate = Montserrat({
-  weight:["100", "300", "900"],
+  weight: ["100", "500", "300", "900"],
   style: "normal",
-  subsets:["latin"]
+  subsets: ["latin"],
 });
 
 export const metadata = {
   title: "In Menu",
-  description: "In Menu tu carta a la medida, configura, crea y actualiza tu menú con facilidad.",
+  description:
+    "In Menu tu carta a la medida, configura, crea y actualiza tu menú con facilidad.",
 };
 
 export default function RootLayout({ children }) {
